@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D2879B2043FBF3009C287F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2879A2043FBF3009C287F /* AppDelegate.m */; };
+		18D2879E2043FBF3009C287F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2879D2043FBF3009C287F /* main.m */; };
+		18D287A02043FBF3009C287F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2879F2043FBF3009C287F /* Assets.xcassets */; };
+		18D287A32043FBF4009C287F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D287A12043FBF4009C287F /* MainMenu.xib */; };
+		18DB292C2044EE4500FEFC0D /* MyViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB292B2044EE4500FEFC0D /* MyViews.m */; };
+		18DB29332044F4CF00FEFC0D /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29312044F4CF00FEFC0D /* MyVC.m */; };
+		18DB29342044F4CF00FEFC0D /* MyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DB29322044F4CF00FEFC0D /* MyVC.xib */; };
+		18DB29372044F62800FEFC0D /* MyTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29362044F62800FEFC0D /* MyTableCellView.m */; };
+		18DB293A2044F70900FEFC0D /* BoxCommonCellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29392044F70900FEFC0D /* BoxCommonCellButton.m */; };
+		18DB293C2044F74C00FEFC0D /* decrypt_icon_folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DB293B2044F74C00FEFC0D /* decrypt_icon_folder@2x.png */; };
+		18DB293F2044F85900FEFC0D /* MyCustomAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB293E2044F85900FEFC0D /* MyCustomAnimator.m */; };
+		18DB29432044F8B100FEFC0D /* ApplyDecrytionWaitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29412044F8B100FEFC0D /* ApplyDecrytionWaitVC.m */; };
+		18DB29442044F8B100FEFC0D /* ApplyDecrytionWaitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DB29422044F8B100FEFC0D /* ApplyDecrytionWaitVC.xib */; };
+		18DB29472044F8FE00FEFC0D /* TWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29462044F8FE00FEFC0D /* TWButton.m */; };
+		18DB294A2044F91000FEFC0D /* SYFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB29492044F91000FEFC0D /* SYFlatButton.m */; };
+		18DB294C2044F94800FEFC0D /* popwindow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DB294B2044F94800FEFC0D /* popwindow@2x.png */; };
+		18DB294E2044F96A00FEFC0D /* close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DB294D2044F96A00FEFC0D /* close_normal@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D287962043FBF3009C287F /* 11111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 11111.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D287992043FBF3009C287F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D2879A2043FBF3009C287F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D2879D2043FBF3009C287F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D2879F2043FBF3009C287F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D287A22043FBF4009C287F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18D287A42043FBF4009C287F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DB292A2044EE4500FEFC0D /* MyViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViews.h; sourceTree = "<group>"; };
+		18DB292B2044EE4500FEFC0D /* MyViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViews.m; sourceTree = "<group>"; };
+		18DB29302044F4CF00FEFC0D /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		18DB29312044F4CF00FEFC0D /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		18DB29322044F4CF00FEFC0D /* MyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyVC.xib; sourceTree = "<group>"; };
+		18DB29352044F62800FEFC0D /* MyTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableCellView.h; sourceTree = "<group>"; };
+		18DB29362044F62800FEFC0D /* MyTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableCellView.m; sourceTree = "<group>"; };
+		18DB29382044F70900FEFC0D /* BoxCommonCellButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxCommonCellButton.h; sourceTree = "<group>"; };
+		18DB29392044F70900FEFC0D /* BoxCommonCellButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxCommonCellButton.m; sourceTree = "<group>"; };
+		18DB293B2044F74C00FEFC0D /* decrypt_icon_folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decrypt_icon_folder@2x.png"; sourceTree = "<group>"; };
+		18DB293D2044F85900FEFC0D /* MyCustomAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomAnimator.h; sourceTree = "<group>"; };
+		18DB293E2044F85900FEFC0D /* MyCustomAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomAnimator.m; sourceTree = "<group>"; };
+		18DB29402044F8B100FEFC0D /* ApplyDecrytionWaitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyDecrytionWaitVC.h; sourceTree = "<group>"; };
+		18DB29412044F8B100FEFC0D /* ApplyDecrytionWaitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyDecrytionWaitVC.m; sourceTree = "<group>"; };
+		18DB29422044F8B100FEFC0D /* ApplyDecrytionWaitVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplyDecrytionWaitVC.xib; sourceTree = "<group>"; };
+		18DB29452044F8FE00FEFC0D /* TWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWButton.h; sourceTree = "<group>"; };
+		18DB29462044F8FE00FEFC0D /* TWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWButton.m; sourceTree = "<group>"; };
+		18DB29482044F91000FEFC0D /* SYFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFlatButton.h; sourceTree = "<group>"; };
+		18DB29492044F91000FEFC0D /* SYFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFlatButton.m; sourceTree = "<group>"; };
+		18DB294B2044F94800FEFC0D /* popwindow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popwindow@2x.png"; sourceTree = "<group>"; };
+		18DB294D2044F96A00FEFC0D /* close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_normal@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D287932043FBF3009C287F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D2878D2043FBF3009C287F = {
+			isa = PBXGroup;
+			children = (
+				18D287982043FBF3009C287F /* 11111 */,
+				18D287972043FBF3009C287F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D287972043FBF3009C287F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D287962043FBF3009C287F /* 11111.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D287982043FBF3009C287F /* 11111 */ = {
+			isa = PBXGroup;
+			children = (
+				18D287992043FBF3009C287F /* AppDelegate.h */,
+				18D2879A2043FBF3009C287F /* AppDelegate.m */,
+				18DB29302044F4CF00FEFC0D /* MyVC.h */,
+				18DB29312044F4CF00FEFC0D /* MyVC.m */,
+				18DB29322044F4CF00FEFC0D /* MyVC.xib */,
+				18DB29352044F62800FEFC0D /* MyTableCellView.h */,
+				18DB29362044F62800FEFC0D /* MyTableCellView.m */,
+				18DB29382044F70900FEFC0D /* BoxCommonCellButton.h */,
+				18DB29392044F70900FEFC0D /* BoxCommonCellButton.m */,
+				18DB293D2044F85900FEFC0D /* MyCustomAnimator.h */,
+				18DB293E2044F85900FEFC0D /* MyCustomAnimator.m */,
+				18DB29402044F8B100FEFC0D /* ApplyDecrytionWaitVC.h */,
+				18DB29412044F8B100FEFC0D /* ApplyDecrytionWaitVC.m */,
+				18DB29422044F8B100FEFC0D /* ApplyDecrytionWaitVC.xib */,
+				18DB29452044F8FE00FEFC0D /* TWButton.h */,
+				18DB29462044F8FE00FEFC0D /* TWButton.m */,
+				18DB29482044F91000FEFC0D /* SYFlatButton.h */,
+				18DB29492044F91000FEFC0D /* SYFlatButton.m */,
+				18DB294D2044F96A00FEFC0D /* close_normal@2x.png */,
+				18DB294B2044F94800FEFC0D /* popwindow@2x.png */,
+				18DB293B2044F74C00FEFC0D /* decrypt_icon_folder@2x.png */,
+				18DB292A2044EE4500FEFC0D /* MyViews.h */,
+				18DB292B2044EE4500FEFC0D /* MyViews.m */,
+				18D2879F2043FBF3009C287F /* Assets.xcassets */,
+				18D287A12043FBF4009C287F /* MainMenu.xib */,
+				18D287A42043FBF4009C287F /* Info.plist */,
+				18D2879C2043FBF3009C287F /* Supporting Files */,
+			);
+			path = 11111;
+			sourceTree = "<group>";
+		};
+		18D2879C2043FBF3009C287F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D2879D2043FBF3009C287F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D287952043FBF3009C287F /* 11111 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D287A72043FBF4009C287F /* Build configuration list for PBXNativeTarget "11111" */;
+			buildPhases = (
+				18D287922043FBF3009C287F /* Sources */,
+				18D287932043FBF3009C287F /* Frameworks */,
+				18D287942043FBF3009C287F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 11111;
+			productName = 11111;
+			productReference = 18D287962043FBF3009C287F /* 11111.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D2878E2043FBF3009C287F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "仝兴伟";
+				TargetAttributes = {
+					18D287952043FBF3009C287F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D287912043FBF3009C287F /* Build configuration list for PBXProject "11111" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D2878D2043FBF3009C287F;
+			productRefGroup = 18D287972043FBF3009C287F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D287952043FBF3009C287F /* 11111 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D287942043FBF3009C287F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D287A02043FBF3009C287F /* Assets.xcassets in Resources */,
+				18DB293C2044F74C00FEFC0D /* decrypt_icon_folder@2x.png in Resources */,
+				18DB294E2044F96A00FEFC0D /* close_normal@2x.png in Resources */,
+				18DB29342044F4CF00FEFC0D /* MyVC.xib in Resources */,
+				18DB29442044F8B100FEFC0D /* ApplyDecrytionWaitVC.xib in Resources */,
+				18DB294C2044F94800FEFC0D /* popwindow@2x.png in Resources */,
+				18D287A32043FBF4009C287F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D287922043FBF3009C287F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DB294A2044F91000FEFC0D /* SYFlatButton.m in Sources */,
+				18DB29332044F4CF00FEFC0D /* MyVC.m in Sources */,
+				18DB292C2044EE4500FEFC0D /* MyViews.m in Sources */,
+				18DB293A2044F70900FEFC0D /* BoxCommonCellButton.m in Sources */,
+				18DB29372044F62800FEFC0D /* MyTableCellView.m in Sources */,
+				18D2879E2043FBF3009C287F /* main.m in Sources */,
+				18D2879B2043FBF3009C287F /* AppDelegate.m in Sources */,
+				18DB29432044F8B100FEFC0D /* ApplyDecrytionWaitVC.m in Sources */,
+				18DB29472044F8FE00FEFC0D /* TWButton.m in Sources */,
+				18DB293F2044F85900FEFC0D /* MyCustomAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D287A12043FBF4009C287F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D287A22043FBF4009C287F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D287A52043FBF4009C287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18D287A62043FBF4009C287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18D287A82043FBF4009C287F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 11111/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudscreen.-1111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D287A92043FBF4009C287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = 11111/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudscreen.-1111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D287912043FBF3009C287F /* Build configuration list for PBXProject "11111" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D287A52043FBF4009C287F /* Debug */,
+				18D287A62043FBF4009C287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D287A72043FBF4009C287F /* Build configuration list for PBXNativeTarget "11111" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D287A82043FBF4009C287F /* Debug */,
+				18D287A92043FBF4009C287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D2878E2043FBF3009C287F /* Project object */;
+}
