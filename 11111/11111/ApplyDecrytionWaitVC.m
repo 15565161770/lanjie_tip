@@ -27,6 +27,19 @@
 #pragma mark -- 进行全局鼠标进入view的事件拦截
     // 如果在这个vc中添加NSEventMaskScrollWheel会导致这个vc的scrollview不工作？？？
     self.eventObserver =  [NSEvent addLocalMonitorForEventsMatchingMask:NSEventMaskMouseEntered | NSEventMaskScrollWheel handler:^NSEvent * _Nullable(NSEvent * _Nonnull theEvent) {
+        
+        /*
+         这个方法适合窗口叠加
+         NSPoint p = [theEvent locationInWindow];
+       NSPoint newPoint = [self.view convertPoint:p fromView:self.view];
+        if (!CGRectContainsPoint(self.view.bounds, newPoint)) {
+            [self.view removeFromSuperview];
+            [NSEvent removeMonitor:self.eventObserver];
+            return nil;
+        } else {
+            return theEvent;
+        }
+         */
         if (self.view.window == nil) return theEvent;
         NSView *hitView = [self.view hitTest:theEvent.locationInWindow];
         NSLog(@"=== hitView-%@",hitView);
